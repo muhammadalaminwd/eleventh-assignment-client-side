@@ -18,7 +18,7 @@ const Header = () => {
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
             >
-              <Nav.Link href="#home" className='text-light ms-5'>Home</Nav.Link>
+              <Nav.Link href="#home" className='text-light ms-lg-5'>Home</Nav.Link>
               <Nav.Link href="#items" className='text-light'>Items</Nav.Link>
               <Nav.Link href="#blog" className='text-light'>Blog</Nav.Link>
             </Nav>
