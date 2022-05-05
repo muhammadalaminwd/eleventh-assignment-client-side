@@ -1,6 +1,7 @@
 Project Name:
 # Fresh Warehouse
-Fresh Warehouse is the best Warehouse service near in Dhaka. Client satisfaction is our main priority.
+Fresh Warehouse is the best Warehouse service near in Dhaka. Client satisfaction is our main priority.<br />
+
 [Live Site Link](https://eleventh-assignment-5c5bd.web.app/)
 - The Website is for vegetables and fruits warehouse.
 - We keep inventory fresh by stocking them in our factory.
