@@ -1,0 +1,12 @@
+.question{
+    color: #FF7F39;
+    text-align: left;
+    margin-left: 15px;
+}
+.answer{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: lighter;
+    line-height: 1.6;
+    
+}
