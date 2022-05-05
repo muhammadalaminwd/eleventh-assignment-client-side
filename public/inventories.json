@@ -1,57 +1,57 @@
 [
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Broccoli",
+        "img": "https://i.ibb.co/j3xtQtP/1.png",
+        "name": "Broccoli",
+        "description": "We will provide you fresh broccoli with money back guarantee. This vegetable is so good for health.",
+        "price": "300 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Mofiz Bro"
     },
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Tomato",
+        "img": "https://i.ibb.co/HF3Yvkp/2.png",
+        "name": "Tomato",
+        "description": "Tomato contains vitamin c. A tomato is better than 10 apples. We will provide you fresh tomato.",
+        "price": "100 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Mondol Khan"
     },
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Cucumber",
+        "img": "https://i.ibb.co/Sd3Yjrc/3.png",
+        "name": "Cucumber",
+        "description": "If you are a biriyani lover, you need it very badly. Remember only fresh warehouse can give you original, fresh cucumber.",
+        "price": "70 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Sosha Mia"
     },
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Straberry",
+        "img": "https://i.ibb.co/vPxqfMb/4.png",
+        "name": "Straberry",
+        "description": "This fruit is amazing in the area of woman zone. You can make anything with this straberry. It's fresh and amazing. We can order anytime anyday.",
+        "price": "600 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Shakib Khan"
     },
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Lettuce",
+        "img": "https://i.ibb.co/wSjw25L/5.png",
+        "name": "Lettuce",
+        "description": "Lettuce can give you a healthy brain. We should everyday eat this a lot. But make sure that it's fresh. Come to us, we will provide you the most fresh lettuce.",
+        "price": "150 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Lomba Man"
     },
     {
-        "id": "Mathematics",
-        "img": "https://i.ibb.co/16FtFt1/1.jpg",
-        "name": "MATHEMATICS",
-        "description": "We will teach you mathmatics carely. You will understand every chapter on the book and will get A+ inshaAllah",
-        "price": "1500 Tk",
-        "quantity": "1500 Tk",
-        "supplierName": "1500 Tk"
+        "id": "Apple",
+        "img": "https://i.ibb.co/rxM2VLV/6.png",
+        "name": "Apple",
+        "description": "An apple a day, keeps the doctor away. You need fresh apple to keep your health fresh. Just buy from us and forget about the doctors.",
+        "price": "250 Tk",
+        "quantity": "1 kg",
+        "supplierName": "Apel Mia"
     }
 
 ]
