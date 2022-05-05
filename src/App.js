@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/Home/About/About";
 import Home from "./Pages/Home/Home";
-import Inventory from "./Pages/Home/Inventory/Inventory";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -10,6 +9,7 @@ import Header from "./Pages/Shared/Header/Header";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Blogs from "./Pages/Blog/Blog";
+import InventoryDetail from "./Pages/Login/InventoryDetail/InventoryDetail";
 
 function App() {
   return (
@@ -22,9 +22,9 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path="/blog" element={<Blogs></Blogs>}></Route>
-        <Route path='/inventories' element={
+        <Route path='/inventorydetail' element={
           <RequireAuth>
-          <Inventory></Inventory>
+          <InventoryDetail></InventoryDetail>
           </RequireAuth>
         }></Route>
 

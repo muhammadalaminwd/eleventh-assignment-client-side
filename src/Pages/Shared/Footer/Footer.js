@@ -17,29 +17,29 @@ const Footer = () => {
               <ul className="m-0 p-0">
                 <li className="mb-2">
                   <a
-                    class="text-decoration-none text-light"
+                    className="text-decoration-none text-light"
                     href="/"
                   >
                     Home
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a class="text-decoration-none text-light" href="/home#items">
+                  <a className="text-decoration-none text-light" href="/home#items">
                     Items
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a class="text-decoration-none text-light" href="/blog">
+                  <a className="text-decoration-none text-light" href="/blog">
                     Blog
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a class="text-decoration-none text-light" href="/about">
+                  <a className="text-decoration-none text-light" href="/about">
                     About
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a class="text-decoration-none text-light" href="/login">
+                  <a className="text-decoration-none text-light" href="/login">
                     Login
                   </a>
                 </li>
