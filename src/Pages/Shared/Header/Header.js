@@ -26,12 +26,19 @@ const Header = () => {
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
             >
-              <Nav.Link href="#home" className='text-light ms-lg-5'>Home</Nav.Link>
-              <Nav.Link href="home#inventory" className='text-light'>Inventory</Nav.Link>
+              <Nav.Link href="/" className='text-light ms-lg-5'>Home</Nav.Link>
+              <Nav.Link href="home#inventories" className='text-light'>Inventory</Nav.Link>
               <Nav.Link as={Link} to="/blog" className='text-light'>Blog</Nav.Link>
             </Nav>
             <Form className="d-flex">
-              <Button variant="outline-success" className='text-light' onClick={handleSignOut}>Sign Out</Button>
+            {
+              user ?
+              <Button variant="outline-success" className='bg-white text-success' onClick={handleSignOut}>Sign Out</Button>
+              :
+              <Nav.Link className="text-success bg-white m-2 rounded-3" as={Link} to="login">
+              LOGIN
+            </Nav.Link>
+            }
             </Form>
           </Navbar.Collapse>
         </Container>
