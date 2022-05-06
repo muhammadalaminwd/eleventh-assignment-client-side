@@ -28,7 +28,7 @@ const Header = () => {
             >
               <Nav.Link href="/" className='text-light ms-lg-5'>Home</Nav.Link>
               <Nav.Link href="home#inventories" className='text-light'>Inventory</Nav.Link>
-              <Nav.Link as={Link} to="/blog" className='text-light'>Blog</Nav.Link>
+              <Nav.Link as={Link} to="/blogs" className='text-light'>Blogs</Nav.Link>
             </Nav>
             <Form className="d-flex">
             {

@@ -8,7 +8,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import Blogs from "./Pages/Blog/Blog";
+import Blogs from "./Pages/Blogs/Blogs";
 import InventoryDetail from "./Pages/Login/InventoryDetail/InventoryDetail";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path="/blog" element={<Blogs></Blogs>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path='/inventorydetail' element={
           <RequireAuth>
           <InventoryDetail></InventoryDetail>
