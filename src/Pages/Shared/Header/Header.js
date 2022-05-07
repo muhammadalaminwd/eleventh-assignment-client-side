@@ -33,6 +33,18 @@ const Header = () => {
             <Form className="d-flex">
             {
               user ?
+              <Nav.Link as={Link} to="/additem" className='text-light'>Add Item</Nav.Link>
+              :
+              <Nav.Link as={Link} to="/additem" className='text-light'></Nav.Link>
+            }
+            {
+              user ?
+              <Nav.Link as={Link} to="/myitem" className='text-light'>My Item</Nav.Link>
+              :
+              <Nav.Link as={Link} to="/myitem" className='text-light'></Nav.Link>
+            }
+            {
+              user ?
               <Button variant="outline-success" className='bg-white text-success' onClick={handleSignOut}>Sign Out</Button>
               :
               <Nav.Link className="text-success bg-white m-2 rounded-3" as={Link} to="login">
