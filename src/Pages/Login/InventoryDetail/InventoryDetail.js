@@ -1,5 +1,7 @@
+import { Button } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Form, Nav } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 import Inventory from '../../Home/Inventory/Inventory';
 
 const InventoryDetail = () => {
@@ -18,6 +20,7 @@ const InventoryDetail = () => {
     // const inventory = inventories.find(item => item._id === id);
     // const {_id, img, name, description, price, quantity, supplierName } = inventory;
     return (
+        <div>
         <div className='inventory'>
         <img className='w-30 mt-4' src={inventories.img} alt="" />
         <h2>{inventories.name}</h2>
@@ -26,6 +29,12 @@ const InventoryDetail = () => {
         <p>Quantity: {inventories.quantity}</p>
         <p>Supplier Name: {inventories.supplierName}</p>
         <button className='btn'>Delivered</button>
+    </div>
+        <div>
+        <h1>Restock the items</h1>
+        <input type="text" name="" id="" placeholder='Add value'/>
+        <button className='btn mx-3'>Restock</button>
+        </div>
     </div>
     );
 };
