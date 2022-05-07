@@ -26,11 +26,17 @@ const Header = () => {
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
             >
-              <Nav.Link href="/" className='text-light ms-lg-5'>Home</Nav.Link>
-              <Nav.Link href="home#inventories" className='text-light'>Inventory</Nav.Link>
+              <Nav.Link as={Link} to="/" className='text-light ms-lg-5'>Home</Nav.Link>
+              <Nav.Link as={Link} to="/inventories" className='text-light'>Inventory</Nav.Link>
               <Nav.Link as={Link} to="/blogs" className='text-light'>Blogs</Nav.Link>
             </Nav>
             <Form className="d-flex">
+            {
+              user ?
+              <Nav.Link as={Link} to="/manageinventories" className='text-light'>Manage Inventories</Nav.Link>
+              :
+              <Nav.Link as={Link} to="/manageinventories" className='text-light'></Nav.Link>
+            }
             {
               user ?
               <Nav.Link as={Link} to="/additem" className='text-light'>Add Item</Nav.Link>

@@ -13,6 +13,7 @@ import InventoryDetail from "./Pages/Login/InventoryDetail/InventoryDetail";
 import ManageInventories from "./Pages/Home/ManageInventories/ManageInventories";
 import MyItem from "./Pages/MyItem/MyItem";
 import AddItem from "./Pages/AddItem/AddItem";
+import Inventories from "./Pages/Home/Inventories/Inventories";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/inventories" element={<Inventories></Inventories>}></Route>
         <Route
           path="/inventory/:id"
           element={
@@ -35,7 +37,11 @@ function App() {
         ></Route>
         <Route
           path="/manageinventories"
-          element={<ManageInventories></ManageInventories>}
+          element={
+            <RequireAuth>
+            <ManageInventories></ManageInventories>
+          </RequireAuth>
+                  }
         ></Route>
         
         <Route path="/myitem" element={
