@@ -7,6 +7,7 @@ const Inventory = ({inventory}) => {
     const navigate = useNavigate();
     const navigateInventoryDetail = id => {
         navigate(`/inventory/${id}`);
+        console.log(inventory)
     }
     return (
         <div className='inventory'>
