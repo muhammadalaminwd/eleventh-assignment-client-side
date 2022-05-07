@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Inventory from '../Inventory/Inventory';
+import ManageInventories from '../ManageInventories/ManageInventories';
 import './Inventories.css'
 
 const Inventories = () => {
@@ -27,7 +29,7 @@ const Inventories = () => {
         </div>
         
         </div>
-            
+        <button as={Link} to="/manageinventories" className='mt-5 bg-success text-white'>Manage Inventories</button>
         </div>
     );
 };

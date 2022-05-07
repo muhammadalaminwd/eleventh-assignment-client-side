@@ -7,9 +7,10 @@ import Register from "./Pages/Login/Register/Register";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
-import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import Blogs from "./Pages/Blogs/Blogs";
 import InventoryDetail from "./Pages/Login/InventoryDetail/InventoryDetail";
+import ManageInventories from "./Pages/Home/ManageInventories/ManageInventories";
 
 function App() {
   return (
@@ -17,19 +18,20 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
-        <Route path='/login' element={<Login></Login>}></Route>
-        <Route path='/register' element={<Register></Register>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-        <Route path='/inventorydetail' element={
-          <RequireAuth>
-          <InventoryDetail></InventoryDetail>
-          </RequireAuth>
-        }></Route>
-
-
-
+        <Route
+          path="/inventory/:id"
+          element={
+            <RequireAuth>
+              <InventoryDetail></InventoryDetail>
+            </RequireAuth>
+          }
+        ></Route>
+        <Route path="/manageinventories" element={<ManageInventories></ManageInventories>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
